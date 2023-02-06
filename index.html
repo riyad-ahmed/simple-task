@@ -24,7 +24,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="relative">
     <div class="container mx-auto">
       <div class="content flex justify-between items-center py-[19px]">
         <div class="contact flex">
@@ -35,17 +35,15 @@
           <ul class="flex gap-14">
             <li><a href="#">USD</a></li>
             <li><a href="#">Eng</a></li>
-
-
           </ul>
         </div>
       </div>
-      <div class="content flex justify-between py-[25px] items-center">
+      <div class="content min-w-[104px] min-w-[30px] flex justify-between py-[25px] items-center">
         <div class="logo">
           <img src="./image/Simple_.png" alt="Simple_.png">
         </div>
         <div class="menu2">
-          <ul class="flex gap-14">
+          <ul class="xl:flex gap-14">
             <li><a href="#" class="font-bold hover:text-[#ffb327] hover:underline underline-offset-[3px]">Men</a></li>
             <li><a href="#" class="font-bold hover:text-[#ffb327] hover:underline underline-offset-[3px]">Women</a></li>
             <li><a href="#" class="font-bold hover:text-[#ffb327] hover:underline underline-offset-[3px]">Kids</a></li>
@@ -62,7 +60,9 @@
           </div>
           <a href="#">sign in</a>
           <div class="header-bar" onclick="toggleActiveClass()">
-            <span></span><span></span><span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
           <a href="#"><img src="./image/shop.png" alt="shop.png"></a>
         </div>
@@ -167,36 +167,36 @@
   </div>
   <div class="collection">
     <div class="grid grid-cols-3">
-      <div class="shop-card flex justify-end bg-[#f6f6f6]">
-        <div class="py-[240px] xl:pr-[85px] pr-[2px] text-end">
-          <div class="text-[70px] leading-[44px]">
+      <div class="shop-card flex justify-end bg-[#f6f6f6] items-center">
+        <div class="py-[50px] xl:py-[240px] lg:py-[200px] md:py-[150px] sm:py-[100px] xl:pr-[85px] pr-[2px] text-end">
+          <div class="xl:text-[70px] lg:text-[60px] md:text-[50px] sm:text-[40px] text-[30px] leading-[44px]">
             <span class="text-[#288c15] font-light">New</span><b>arrival</b>
           </div>
-          <p>Women Collection</p>
+          <p class="text-[10px] sm:text-[20px] ">Women Collection</p>
           <button
-            class="border border-[#288c15] text-[#288c15] hover:bg-[#288c15] hover:text-[#fff] px-[40px] py-[12px] mt-12">Shop
+            class="border border-[#288c15] text-[#288c15] hover:bg-[#288c15] hover:text-[#fff] lg:px-[40px] lg:py-[12px] px-[18px] py-[6px] mt-12">Shop
             Now</button>
         </div>
       </div>
-      <div class="shop-card flex justify-end bg-[#eceeed]">
-        <div class="py-[240px] xl:pr-[85px] pr-[2px] text-end">
-          <div class="text-[70px] leading-[44px]">
+      <div class="shop-card flex justify-end bg-[#eceeed] items-center">
+        <div class="py-[50px] xl:py-[240px] lg:py-[200px] md:py-[150px] sm:py-[100px] xl:pr-[85px] pr-[2px] text-end">
+          <div class="xl:text-[70px] lg:text-[60px] md:text-[50px] sm:text-[40px] text-[30px] leading-[44px]">
             <span class="text-[#ffb327] font-light">Gifs</span><b>ForMen</b>
           </div>
-          <p class="mr-[8rem]">Swearters And Shirts</p>
+          <p class="lg:mr-[8rem] text-[10px] sm:text-[20px]">Swearters And Shirts</p>
           <button
-            class="border border-[#ffb327] text-[#ffb327] hover:bg-[#ffb327] hover:text-[#fff] px-[40px] py-[12px] mt-12">Shop
+            class="border border-[#288c15] text-[#288c15] hover:bg-[#288c15] hover:text-[#fff] lg:px-[40px] lg:py-[12px] px-[18px] py-[6px] mt-12">Shop
             Now</button>
         </div>
       </div>
-      <div class="shop-card flex justify-end bg-[#f3f1f2]">
-        <div class="py-[240px] xl:pr-[85px] pr-[2px] text-end">
-          <div class="text-[70px] leading-[44px]">
+      <div class="shop-card flex justify-end bg-[#f3f1f2] items-center">
+        <div class="py-[50px] xl:py-[240px] lg:py-[200px] md:py-[150px] sm:py-[100px] xl:pr-[85px] pr-[2px] text-end">
+          <div class="xl:text-[70px] lg:text-[60px] md:text-[50px] sm:text-[40px] text-[30px] leading-[44px]">
             <b>Girls</b><span class="text-[#fc6186] font-light">Wear</span>
           </div>
-          <p class="mr-[8rem]">Women Collection</p>
+          <p class="xl:mr-[8rem] text-[10px] sm:text-[20px]">Women Collection</p>
           <button
-            class="border border-[#fc6186] text-[#fc6186] hover:bg-[#fc6186] hover:text-[#fff] px-[40px] py-[12px] mt-12">Shop
+            class="border border-[#288c15] text-[#288c15] hover:bg-[#288c15] hover:text-[#fff] lg:px-[40px] lg:py-[12px] px-[18px] py-[6px] mt-12">Shop
             Now</button>
         </div>
       </div>

@@ -54,3 +54,11 @@ var swiper = new Swiper(".cardSlider", {
     // when window width is >= 640px
   }
 });
+
+function toggleActiveClass() {
+  var activeClass = document.querySelector(".header-bar");
+  var menu = document.querySelector(".menu2");
+
+  activeClass.classList.toggle("active");
+  menu.classList.toggle("active");
+}

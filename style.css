@@ -233,7 +233,14 @@ body{
   filter: invert(88%) sepia(14%) saturate(6892%) hue-rotate(336deg) brightness(101%) contrast(102%);
 }
 
+@media (max-width: 1024px){
 
+}
+@media (max-width: 640px){
+  .search-bar{
+    display: none;
+  }
+}
 
 
 

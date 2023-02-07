@@ -38,6 +38,10 @@ var swiper = new Swiper(".cardSlider", {
   },
   breakpoints: {
     350: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    512: {
       slidesPerView: 2,
       spaceBetween: 20
     },
